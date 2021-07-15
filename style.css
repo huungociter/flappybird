@@ -1,0 +1,20 @@
+body {
+    background-image: url(abcd.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#canvas {
+    border: solid 7px rgb(243, 241, 241);
+}
+
+.container {
+    text-align: center;
+}
+
+@media all and (max-width: 480px) {
+    #canvas {
+        width: 10px;
+        height: 10px;
+    }
+}
